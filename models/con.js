@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect(`mongodb+srv://amanjidubey2:aman5820@cluster0.v2csh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`).then(() => {
+mongoose.connect(`localhost:3000`).then(() => {
     console.log("Connected to MongoDB");
 }).catch((err) => {
     console.log("Something si wrong while connecting to db", err);
